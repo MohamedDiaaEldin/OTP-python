@@ -1,4 +1,3 @@
-from os import removexattr
 import smtplib
 
 from decouple import config

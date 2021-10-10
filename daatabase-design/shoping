@@ -1,0 +1,50 @@
+login data 
+-----------
+	name 
+	password
+
+Account : 
+---------
+	name 
+	email 
+	phone 
+	address 
+
+
+
+home 
+----- 
+	image
+	name
+ 
+product 
+-------- 
+	name 
+	image
+	decription	
+	price
+	categories
+
+Tables entities 
+---------------
+customers (id, name, email, phone, address, cart_id)
+
+products(id, name, description, price, category_id)
+categories()
+
+---------------
+Customers
+	id (pr), first_name , last_name , address , phone_number , total_cart
+
+
+Cart items :
+	id (pr), customer_id (fk) , quantity
+
+
+Categories:
+	id (pr), category_name
+
+Products :
+	id (pr), product_name , product_model , category (fk)
+
+

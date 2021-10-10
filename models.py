@@ -1,4 +1,3 @@
-from flask.app import Flask
 from flask_sqlalchemy import SQLAlchemy 
 import os
 import psycopg2
@@ -10,7 +9,7 @@ if DATABASE_URL and DATABASE_URL.startswith("postgres://"):
 
 
 
-# DATABASE_URL  = 'postgresql://mohamed:123@127.0.0.1:5432/shoping'
+
 
 print('database url ---------> ', DATABASE_URL)
 

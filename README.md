@@ -1,1 +1,1 @@
-One Time Password Feature
+One Time Password API
